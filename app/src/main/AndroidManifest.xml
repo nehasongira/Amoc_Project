@@ -19,6 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".AskLocation"></activity>
+        <activity android:name=".Categories"></activity>
     </application>
 
 </manifest>
