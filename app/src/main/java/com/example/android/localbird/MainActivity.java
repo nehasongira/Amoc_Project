@@ -7,10 +7,14 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
+private static final String TAG = "MainActivity";
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Log.i(TAG,"MESSAGE");
+        
         //Welcome Page
     }
     public void Next(View v)
